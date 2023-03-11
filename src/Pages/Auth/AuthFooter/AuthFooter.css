@@ -1,0 +1,24 @@
+.authFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(16, 16, 16, 0.92);
+    height: 157px;
+}
+
+.sociaIcons {
+    display: flex;
+    gap: 19px;
+}
+
+.lines {
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.links {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}

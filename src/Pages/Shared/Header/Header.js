@@ -33,8 +33,8 @@ const Header = () => {
                 </div>
             </div>
             <div className='lastHalf'>
-                <Link to="/signin" className='link'>SIGN IN</Link>
-                <Link to="/signup">
+                <Link to="/user/signin" className='link'>SIGN IN</Link>
+                <Link to="/user/signup">
                     <button className='signupbtn link'>SIGN UP NOW</button>
                 </Link>
             </div>

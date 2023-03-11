@@ -1,4 +1,5 @@
 .app {
   background-color: #0A0A0A;
   min-height: 100vh;
+  max-width: 1920px;
 }
