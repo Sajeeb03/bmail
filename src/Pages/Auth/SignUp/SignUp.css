@@ -135,3 +135,44 @@
         margin-left: 70px;
     }
     
+@media (max-width:768px) {
+    .signuppage {
+        flex-direction: column;
+    }
+
+    .leftPartSignup {
+        margin-left: 20px;
+    }
+
+    .signUpForm {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inpField {
+        width: 90%;
+    }
+
+    .submitbtn {
+        width: 90%;
+    }
+
+    .mailIcons {
+        gap: 8px;
+    }
+
+    .signUpFormTitle,
+    .formTexts,
+    .permissionText {
+        margin-left: 20px;
+    }
+
+    .gradIcon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .pageDes {
+        width: 90%;
+    }
+}

@@ -1,4 +1,4 @@
-import { Form, FormCheck } from "react-bootstrap"
+import { Form } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import "./SignUp.css"
 
