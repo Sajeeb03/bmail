@@ -1,0 +1,27 @@
+.passFieldslogin {
+    margin-top: 17px;
+    margin-left: 28px;
+}
+
+.signinpage {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 158px;
+    margin-right: 47px;
+}
+
+
+
+.signInForm {
+    width: 601px;
+    height: 723px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    border-radius: 45.4773px;
+    margin-bottom: 75px;
+}
+
+.forgot {
+    margin-left: 65px;
+    margin-top: 10px;
+}
