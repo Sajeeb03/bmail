@@ -55,3 +55,14 @@
     font-weight: 700;
     margin: 0px;
 }
+@media screen and (max-width:768px) {
+    .footer {
+        flex-direction: column;
+        padding-right: 0;
+        margin-left: 10px;
+    }
+
+    .list-navs {
+        margin: 0;
+    }
+}

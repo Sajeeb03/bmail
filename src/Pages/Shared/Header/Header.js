@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Header.css"
 import { Link } from 'react-router-dom'
+import { FaBars } from 'react-icons/fa'
 
 
 const Header = () => {
+    const [showNav, setShowNav] = useState(false)
     return (
         <div className='header'>
             <div className='firstHalf'>
@@ -38,6 +40,21 @@ const Header = () => {
                 <Link to="/user/signin" className='link'>SIGN IN</Link>
                 <Link to="/user/signup">
                     <button className='signupbtn link'>SIGN UP NOW</button>
+                </Link>
+            </div>
+            <div className='mobileNav'>
+                <FaBars className='text-white' onClick={() => setShowNav(!showNav)} />
+            </div>
+
+
+            <div className={`mobileList ${showNav ? "" : "d-none"}`}>
+                <Link to="/" className='link' onClick={() => setShowNav(!showNav)}>ABOUT</Link>
+                <Link to="/" className='link' onClick={() => setShowNav(!showNav)}>TEAM</Link>
+                <Link to="/contact" className='link' onClick={() => setShowNav(!showNav)}>CONTACT US</Link>
+                <Link to="/" className='link' onClick={() => setShowNav(!showNav)}>BLOGS</Link>
+                <Link to="/user/signin" className='link' onClick={() => setShowNav(!showNav)}>SIGN IN</Link>
+                <Link to="/user/signup">
+                    <button className='signupbtn link' onClick={() => setShowNav(!showNav)}>SIGN UP NOW</button>
                 </Link>
             </div>
         </div>
